@@ -1,0 +1,90 @@
+/*font styles location*/
+@import url('https://fonts.googleapis.com/css?family=Domine|IBM+Plex+Serif|Rajdhani&display=swap');
+/*format for the top of the page*/
+.wrapper {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*image alignment*/
+.image {
+  border-radius: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*horizontal line*/
+hr {
+  height: 2px;
+  background-color:black;
+  border: black
+}
+/*page alignment*/
+.alignment {
+  max-width: 1080px;
+  margin: auto;
+  padding: 10px;
+}
+body {
+position: center;
+background-color:#FBEEE6;
+}
+.group{
+  display:flex;
+  flex-direction: column;
+}
+.item {
+  flex:1;
+  margin:10px;
+  text-align: center;
+}
+.holder {
+  flex:1;
+  margin:10px;
+}
+/*fonts for different tags*/
+h1 {
+  font-family: 'Domine',cursive;
+}
+h2 {
+  font-family: 'IBM Plex Serif',serif;
+}
+p,li {
+  font-family: 'Rajdhan1', sans-serif;
+  /*small gap*/
+}
+form {
+  display: flex;
+  flex: column;
+}
+.gap-sm {
+  height:15px;
+  width: auto;
+}
+
+footer {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+
+/*link colors*/
+a:link {color: black}
+a:visited {color:black}
+a:hover {color:rgb(75, 74, 74)}
+a:active {color:rgb(75,74,74)}
+
+@media all and (min-width: 800px) {
+  section{
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+    padding: 10px;
+  }
+}
+
