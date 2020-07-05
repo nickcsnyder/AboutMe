@@ -66,8 +66,12 @@ p,li {
 }
 form {
   display: flex;
-  flex: column;
-  
+  flex: 1;
+}
+.input {
+  display: flex;
+  flex:1;
+  align-items: center;
 }
 .gap-sm {
   height:15px;
