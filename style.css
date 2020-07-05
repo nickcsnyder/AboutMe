@@ -59,6 +59,7 @@ p,li {
 form {
   display: flex;
   flex: column;
+  
 }
 .gap-sm {
   height:15px;
